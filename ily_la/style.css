@@ -1,0 +1,83 @@
+/* Fondo de la página en degradado rosado */
+body {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centrar el modal y dar estilo */
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.modal-content {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    background-color: #ffcccc; /* Color rojo sutil */
+    color: #333; /* Color de texto oscuro */
+    border: none;
+}
+
+/* Encabezado del modal */
+.modal-header {
+    background-color: #ff9999; /* Tono más claro de rojo */
+    color: #333; /* Color de texto oscuro */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Título del modal */
+.modal-title {
+    font-size: 1.8rem; /* Aumentar tamaño de fuente */
+    font-weight: bold;
+}
+
+/* Botón de cierre en el encabezado */
+.btn-close {
+    color: #333; /* Color oscuro para el botón de cierre */
+    opacity: 1;
+}
+
+/* Cuerpo del modal */
+.modal-body {
+    font-size: 1.2rem; /* Aumentar tamaño de fuente */
+    padding: 20px;
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Pie de página del modal */
+.modal-footer {
+    background-color: #ffb3b3; /* Color de pie de página más claro */
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Estilo del botón Cerrar */
+.btn-secondary {
+    background-color: #f7b2b7;
+    border: none;
+    color: #333; /* Color de texto oscuro */
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #ff4d4d;
+}
+
+/* Estilo del botón Guardar cambios */
+.btn-primary {
+    background-color: #d90429;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #9b1c1c;
+}
